@@ -13,7 +13,13 @@ function App() {
             <img src={logo} alt="Logo" className="w-8" />
             <h1 className="font-bold ps-2">၅မျိုးသမ္ဗုဒ္ဓေ</h1>
           </div>
-          <button>🌙</button>
+          <a
+            href="https://github.com/sueyanshin"
+            target="_blank"
+            className="border border-white rounded-full p-1 hover:bg-violet-800"
+          >
+            👨‍💻
+          </a>
         </div>
       </nav>
       <Content />

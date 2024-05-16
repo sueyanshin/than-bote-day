@@ -103,7 +103,7 @@ const Content = () => {
     });
   };
   return (
-    <div className="sm:w-3/4 mt-14">
+    <div className="sm:w-3/4 sm:mt-14 mt-20 ">
       <h2 className="font-bold text-yellow-600 sm:text-3xl sm:py-8 py-3">
         {data[currentContentIndex].title}
       </h2>
